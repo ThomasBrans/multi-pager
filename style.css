@@ -321,7 +321,7 @@ grid-template-rows: 95% 5%
 body.body-index {
     background-image: url(assets/index-background.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 1300px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(211, 211, 211);
 }

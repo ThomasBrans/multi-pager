@@ -2,12 +2,13 @@ html, body {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    width: 100vw;
    
 }
 
 header {
     height: 100px;
-    width: 100%;
+    width: 100vw;
     background-color: #232D3E;
     display:flex;
     align-items: left; /* Vertical center alignment */
@@ -29,7 +30,7 @@ header {
     /*justify-content: space-between;*/
     align-items: flex-start;
     justify-content: left;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -40,7 +41,7 @@ header {
     justify-items: left;
     background-color: #151922;
     border: 1px solid #343B4A;
-    width: 30%;
+    width: 30vw;
     height: 100vh;
     padding-left: 20px;
     
@@ -69,11 +70,12 @@ grid-template-rows: 95% 5%
     align-items: flex-start;
     justify-content: left;
     background-color: #171B23;
-    width: 97.6%;
+    width: 65vw;
     height: 90vh;
     border: 1px solid #343B4A;
-    padding-left: 20px;
-    /*padding-top: 20px;*/
+   padding-left: 5vw;
+    /*padding-top: 20px;
+    padding-right:-20px;*/
 }
 
 .grindinsideflexspacingPL > div {
@@ -254,16 +256,17 @@ grid-template-rows: 95% 5%
     align-items: center;
     background-color: #243040;
     height: 10vh;
-    width: 870px;
+    width: 60vw;
     margin: none;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 
 .rotategridPL {
     display:flex;
     flex-direction: column;
+    width: 70vw;
 
 }
 

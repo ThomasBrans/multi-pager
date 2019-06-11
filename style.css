@@ -35,13 +35,13 @@ header {
 
 .gridinsideflexPL {
     display: grid;
-    grid-template-columns: 40%;
+    grid-template-columns: 30%;
     align-items: flex-start;
     justify-items: left;
     background-color: #151922;
     border: 1px solid #343B4A;
     width: 30%;
-    height: 111.9vh;
+    height: 100vh;
     padding-left: 20px;
     
 grid-template-rows: 95% 5%
@@ -65,15 +65,15 @@ grid-template-rows: 95% 5%
 
 .gridinsideflex2PL {
     display: grid;
-    grid-template-columns: 60%;
+    grid-template-columns: 70%;
     align-items: flex-start;
     justify-content: left;
     background-color: #171B23;
     width: 97.6%;
-    height: 100vh;
+    height: 90vh;
     border: 1px solid #343B4A;
     padding-left: 20px;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
 }
 
 .grindinsideflexspacingPL > div {
@@ -96,6 +96,7 @@ grid-template-rows: 95% 5%
 
 .colorgeneralPL {
     color:white;
+    padding-top:20px;
 }
 
 .battlelanguagePL {
@@ -252,7 +253,7 @@ grid-template-rows: 95% 5%
     justify-content: space-between;
     align-items: center;
     background-color: #243040;
-    height: 50px;
+    height: 10vh;
     width: 870px;
     margin: none;
     padding-left: 15px;

@@ -294,18 +294,18 @@ grid-template-rows: 95% 5%
     
 }
 
-a {
+.link {
     color: #9E9FA0 !important;
     text-decoration: none;
     outline:none;
 }
 
-a:hover {
+.link:hover {
     color: white !important;
     text-decoration: none;
 }
 
-a:selected {
+.link:selected {
     color: white !important;
     text-decoration: none;
 }
